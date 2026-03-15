@@ -32,7 +32,7 @@ body {
     position: relative;
 }
 
-/* Sol yarim daire - 37px radius tekerin (40px) altina girir */
+
 .left {
     border-radius: 160px 0 0 160px;
     border-right: none !important;
@@ -40,7 +40,7 @@ body {
     mask-image: radial-gradient(circle at 160px 160px, transparent 38px, black 39px);
 }
 
-/* Sag yarim daire */
+
 .right {
     border-radius: 0 160px 160px 0;
     border-left: none !important;
@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a1a1a; /* Tekerle eyni reng fon */
+    background: #1a1a1a;
     border-radius: 50%;
     z-index: 101;
 }
@@ -70,7 +70,7 @@ body {
     cursor: pointer;
 }
 
-/* SVG renkleri - CSS-den idare */
+
 .wheel-tire { fill: #302f2f; }
 .wheel-disk { fill: #c0bcbc; }
 .wheel-bolts { fill: #302f2f; }
@@ -80,7 +80,6 @@ body {
     to { transform: rotate(360deg); }
 }
 
-/* Sehne ve Skater */
 .skater-scene {
     position: absolute;
     width: 100%;
@@ -98,9 +97,9 @@ body {
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    /* Skater fiqurunun duz arxasinda dumanli agliq effektini guclendiririk */
-    filter: drop-shadow(0 0 1px rgba(255, 255, 255, 1)) /* Daha parlaq dumanli agliq effekti */
-            drop-shadow(0 0 2px rgba(255, 255, 255, 0.7)); /* Daha boyuk, yumshaq dumanli agliq effekti */
+  
+    filter: drop-shadow(0 0 1px rgba(255, 255, 255, 1)) 
+            drop-shadow(0 0 2px rgba(255, 255, 255, 0.7)); 
 }
 
 .skate-text {

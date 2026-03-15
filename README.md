@@ -1,8 +1,8 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![GSAP](https://img.shields.io/badge/GSAP-Animation-88cc00.svg)
-![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
-![CSS](https://img.shields.io/badge/CSS-3-blue.svg)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GSAP](https://img.shields.io/badge/GSAP-Animation-88cc00.svg)](https://gsap.com/)
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 # Skateboard Animation
 

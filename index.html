@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skateboard Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="main-circle" id="circleTrigger">
+            <div class="circle-half left"></div>
+            <div class="circle-half right"></div>
+            
+            <div class="spinning-board">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" class="wheel-icon-3d">
+                    <circle class="wheel-tire" cx="12" cy="12" r="10" />
+                    <circle class="wheel-disk" cx="12" cy="12" r="6" />
+                    <g class="wheel-bolts">
+                        <path d="M12 15a3 3 0 1 0 0-6a3 3 0 0 0 0 6M12 13a1 1 0 1 1 0-2a1 1 0 0 1 0 2"/>
+                        <path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10m-10 6a6 6 0 1 0 0-12a6 6 0 0 0 0 12m3-6a3 3 0 1 1-6 0a3 3 0 0 1 6 0" clip-rule="evenodd"/>
+                        <path d="m9.672 17.532l1.525-2.64a3 3 0 0 1-1.299-.751l-1.524 2.64c.397.301.832.555 1.298.75M6.046 12.75h3.048a3 3 0 0 1 0-1.5H6.047a6 6 0 0 0 0 1.5m2.327-5.53l1.524 2.64a3 3 0 0 1 1.299-.751l-1.525-2.64a6 6 0 0 0-1.298.75m4.429 1.89l1.525-2.64c.465.195.901.449 1.298.75l-1.524 2.64a3 3 0 0 0-1.299-.75m2.103 3.641a3 3 0 0 0 0-1.5h3.048a6 6 0 0 1 0 1.5zm-2.103 2.141c.497-.137.942-.4 1.299-.75l1.524 2.64a6 6 0 0 1-1.298.75z"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="skater-scene" id="skaterScene">
+            <div class="skate-text">
+                <span class="word">SKATE</span>
+                <span class="word">BOARD</span>
+            </div>
+            <img src="image/skeatboard_man.png" alt="Jumping Skater" class="skater-man">
+        </div>
+    </div>
+
+    <script src="vendor/gsap.min.js"></script>
+    <script src="skeat.js"></script>
+</body>
+</html>
